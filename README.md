@@ -7,6 +7,6 @@
 
 ### To-Do
 
-[ ] convert news articles to mp3 format
-[ ] implement pause/play/next/prev functionality
-[ ] implement read full article
+- [ ] convert news articles to mp3 format
+- [ ] implement pause/play/next/prev functionality
+- [ ] implement read full article
