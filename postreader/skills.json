@@ -1,0 +1,69 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "awesome news",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": [
+                        "cancel news"
+                    ]
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.RepeatIntent",
+                    "samples": [
+                        "read again"
+                    ]
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": [
+                        "stop news"
+                    ]
+                },
+                {
+                    "name": "ResumeNews",
+                    "slots": [],
+                    "samples": [
+                        "resume news"
+                    ]
+                },
+                {
+                    "name": "RestartNews",
+                    "slots": [],
+                    "samples": [
+                        "new news"
+                    ]
+                },
+                {
+                    "name": "ReadNews",
+                    "slots": [],
+                    "samples": [
+                        "tell me",
+                        "read news",
+                        "read popular news",
+                        "read latest news"
+                    ]
+                },
+                {
+                    "name": "Page",
+                    "slots": [
+                        {
+                            "name": "number",
+                            "type": "AMAZON.NUMBER"
+                        }
+                    ],
+                    "samples": [
+                        "read news {number}",
+                        "turn to news {number}"
+                    ]
+                }
+            ],
+            "types": []
+        }
+    }
+}
